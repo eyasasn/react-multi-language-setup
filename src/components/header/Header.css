@@ -1,0 +1,68 @@
+.title-lang {
+    font-family: 'Jost';
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 100px;
+    color: #ffa500;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+.button-lang {
+    background-color: #f4d3bd50;
+    font-family: 'Jost';
+    font-size: 12px;
+    font-weight: 700;
+    height: 50px;
+    width: 190px;
+    border-radius: 40px;
+    padding: auto;
+    margin: 8px;
+    border-width: 0;
+}
+
+.button-lang-active {
+    background-color: #ffa500;
+    font-family: 'Jost';
+    font-size: 12px;
+    font-weight: 700;
+    height: 50px;
+    width: 190px;
+    border-radius: 40px;
+    padding: auto;
+    margin: 8px;
+    border-width: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .title-lang {
+        font-size: 18px;
+        padding-left: 20px;
+        padding-right: 30px;
+        margin-top: 60px;
+    }
+
+    .button-lang {
+        margin: 0;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
+
+@media (min-width:600px) and (max-width:1000px) {
+    .title-lang {
+        font-size: 26px;
+        padding-left: 20px;
+        padding-right: 30px;
+        margin-top: 60px;
+    }
+
+    .button-lang {
+        margin: 10px;
+        margin-bottom: 10px;
+
+    }
+
+}
